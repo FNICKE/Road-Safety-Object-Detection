@@ -18,6 +18,16 @@ This project aims to detect objects (such as helmets, pedestrians, vehicles, etc
 - **Twilio**: (Optional) For sending SMS notifications when violations are detected.
 - **TensorFlow/PyTorch**: Deep learning framework for model training (if you are training your own models).
 
+## Known Issues
+The object detection accuracy depends on the quality of the video feed.
+Make sure the camera is positioned properly for better detection.
+
+## Acknowledgements
+OpenCV for real-time video capture and processing.
+YOLO (You Only Look Once) for efficient object detection.
+Twilio for sending SMS alerts.
+
+
 ## Installation Instructions
 
 Follow the steps below to set up the project on your local machine.
@@ -28,7 +38,11 @@ Follow the steps below to set up the project on your local machine.
 - Pip (Python package installer)
 
 ## Install Required Dependencies
-cd road-safety-object-detection
-pip install -r requirements.txt
+- cd road-safety-object-detection
+- pip install -r requirements.txt
+
+## Install OpenCV and Twilio
+- pip install opencv-python twilio
+
 
 
